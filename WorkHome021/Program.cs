@@ -24,7 +24,7 @@ int z2 = Convert.ToInt32(Console.ReadLine());
 
 double ABDistance(int xc1, int yc1, int zc1, int xc2, int yc2, int zc2)
 {
-    double d = (xc2 - xc1) * (xc2 - xc1) + (yc2 - yc1) * (yc2 - yc1) + (zc2 - zc1) * (zc1-zc2);
+    double d = (xc2 - xc1) * (xc2 - xc1) + (yc2 - yc1) * (yc2 - yc1) + (zc2 - zc1) * (zc2-zc1);
     return Math.Round(Math.Sqrt(d), 2, MidpointRounding.ToZero);
 
 }
