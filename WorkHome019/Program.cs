@@ -6,7 +6,7 @@
 
 void Numbers(int number)
 {
-    while (number > 99999 || number <= 10000)
+    while (number > 99999 || number <= 9999)
     {
         Console.WriteLine("Ввели не верное число: ");
         Console.Write("Ввести пятизначное число: ");
