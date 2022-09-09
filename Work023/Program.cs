@@ -14,5 +14,5 @@ Console.WriteLine("Число\nКуб числа");
 
 for (int i = 1; i <= number; i++)
 {
-    Console.WriteLine("|{0}\t{1}| ", i, Math.Pow(i, 3));
+    Console.WriteLine("|{0}\t{1}| ", i, (i * i * i));
 }
